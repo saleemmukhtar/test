@@ -1,0 +1,83 @@
+a:hover{
+    text-decoration: none;
+}
+
+#header { 
+
+    color: white;
+    background-color: #FC6722;
+
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 7px;
+}
+
+#menu {
+    float: right;
+    overflow: auto;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#menu li {
+    display: inline-block;
+    
+}
+
+#menu li a {
+    color: white;
+    padding: 15px 10px;
+    display: block;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    background-color: #C94203;
+}
+
+#banner {
+    background-image: url("./images/banner.jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner-title  h1{
+    background: rgba (255,255,255,0.8);
+    /* display: inline-block;
+    margin: 0;
+    padding: 10px;  */
+    color: white;
+
+}
+
+.lead {
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+.section-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-box i.fas {
+    color: tomato;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+.section-box i.fa {
+    color: tomato;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
